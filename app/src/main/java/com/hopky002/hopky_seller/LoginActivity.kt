@@ -117,7 +117,6 @@ class LoginActivity : AppCompatActivity() {
         super.onStart()
         val currentUser = firebaseAuth.currentUser
         if(currentUser != null){
-//
 //            val mainActivityIntent = Intent(this,Dashboard::class.java)
 //            mainActivityIntent.putExtra("currentUser",currentUser)
 //            startActivity(mainActivityIntent)
@@ -198,7 +197,7 @@ class LoginActivity : AppCompatActivity() {
             // Name, email address, and profile photo Url
             val name = user.displayName
 
-            if (name == ""){
+            if (name == null || name == ""){
                 Toast.makeText(this , "Create your profile" , Toast.LENGTH_SHORT).show()
 //                Toast.makeText(this , "Welcome" , Toast.LENGTH_SHORT).show()
 
