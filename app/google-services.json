@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557878131340",
+    "project_id": "hopky-seller-beta",
+    "storage_bucket": "hopky-seller-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557878131340:android:b049bed1ea780dca1859a9",
+        "android_client_info": {
+          "package_name": "com.hopky002.hopky_seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557878131340-9lggj1nc5uas76n3v6201p79ev1545ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgQFRppbITJHLlBiO4t902jzyBvFd0WN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557878131340-9lggj1nc5uas76n3v6201p79ev1545ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
